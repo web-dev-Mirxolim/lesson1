@@ -1,0 +1,39 @@
+.intro {
+    background-image: url(../../img/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1280px;
+    height: 600px;
+    padding: 100px 100px;
+
+    &__text {
+        width: 493px;
+        height: 347px;
+        color: rgb(255, 255, 255);
+
+        &--h1 {
+            font-size: 72px;
+        }
+
+        &--p {
+            width: 400px;
+            margin: 20px 0;
+            color: #cfceca;
+        }
+
+        &--btn {
+            padding: 14px 31px;
+            display: inline-block;
+            margin-top: 10px;
+            border-radius:  5px;  
+            background-color:   #0E8784;
+            color: #fff;
+            text-decoration: none;
+
+           
+        }
+        &--btn:hover{
+            opacity: 0.8;
+        }
+    }
+}

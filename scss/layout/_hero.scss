@@ -1,0 +1,48 @@
+.hero{
+    width: 1111px;
+    height: 529.55px;
+    margin: 90px auto;
+    position: relative;
+
+    &__bg{
+        width: 100%;
+        margin: 0 auto;
+    }
+        
+        
+        &__card-wrapper{
+            margin: 0 auto;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;      
+            flex-direction: row;
+            position: absolute;
+            z-index: 10;
+            top: 128px;  
+    
+            
+            &--card{
+                width: 255px;
+                height: 398.55px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;                 
+                
+            }
+    
+            &--card>h3{
+                text-align: center;
+                margin-top: 70px;
+               
+            }
+    
+            &--card>p{
+                text-align: center;
+                margin-top: 24px;
+            }   
+        }
+    
+    
+}
