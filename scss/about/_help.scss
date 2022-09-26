@@ -1,0 +1,28 @@
+.or{
+    position: relative;
+    width: 1280px;
+    height: 474px;
+    background-color: #272E37;
+    margin-top: 170px;
+    color: whitesmoke;
+    display: flex;
+
+    img{
+        margin-top: -100px;
+        position: absolute;
+        right: 85px;
+        bottom: 88px;
+    }
+}
+.t2{
+    margin-top: 100px;
+    
+    margin-left: 85px;
+    width: 500px;
+    height: 210px;
+
+    p{
+        margin-top: 32px;
+        line-height: 26px;
+    }
+}

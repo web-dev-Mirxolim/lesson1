@@ -1,0 +1,62 @@
+.works {
+  margin-top: 400px;
+}
+
+.aylana {
+  margin-top: 90px;
+}
+
+.circle {
+  border: 2px solid #0e8784;
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 10px -4px;
+}
+
+.line {
+  width: 364px;
+  height: 4px;
+  background-color: #fdd6ba;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.c-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 82px;
+
+  .blok1 {
+    width: 285px;
+    margin-right: 96px;
+    height: 355px;
+
+    h3 {
+      font-size: 90px;
+      color: #fdd6ba;
+    }
+
+    h2 {
+      width: 150px;
+      margin-top: 38px;
+      font-size: 32px;
+    }
+
+    p {
+      margin-top: 42px;
+    }
+  }
+}
+
+button {
+  width: 217px;
+  height: 56px;
+  background-color: #66d2cf;
+  margin-top: 64px;
+  color: whitesmoke;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+}
